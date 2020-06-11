@@ -1,0 +1,66 @@
+package search;
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args)  {
+        Helper helper = new Helper(args[1]);
+        helper.execute();
+    }
+
+    //Only for testing
+    public static List<String> getPeople() {
+        return List.of("Kristofer Galley",
+                "Fernando Marbury fernando_marbury@gmail.com",
+                "Kristyn Nix nix-kris@gmail.com",
+                "Regenia Enderle",
+                "Malena Gray",
+                "Colette Mattei",
+                "Wendolyn Mcphillips",
+                "Jim Gray",
+                "Coreen Beckham",
+                "Bob Yeh bobyeah@gmail.com",
+                "Shannan Bob stropeshah@gmail.com",
+                "Yer Fillion",
+                "Margene Resendez marres@gmail.com",
+                "Blossom Ambler",
+                "Teri Ledet teri_ledet@gmail.com",
+                "Dana Baron baron@gmail.com",
+                "Abram Goldsberry",
+                "Yer Leopold",
+                "Stefania Trunzo",
+                "Alexis Leopold",
+                "Carlene Bob",
+                "Oliver Dacruz",
+                "Jonie Richter",
+                "Pasquale Gallien gallien@evilcorp.com",
+                "Verdie Gentle",
+                "Gerardo Strouth gallien@evilcorp.com",
+                "Agripina Bob",
+                "Latricia Niebuhr",
+                "Malena Schommer",
+                "Drema Leopold",
+                "Heide Payeur",
+                "Ranae Digiovanni,",
+                "Simona Pereira",
+                "Nick Digiovanni",
+                "Angelita Wigington gallien@evilcorp.com",
+                "Elin Gray",
+                "Dwain Trunzo",
+                "Boris Beiler",
+                "Remi Malek fsociefy@gmail.com",
+                "Demetria Hostetler gallien@evilcorp.com",
+                "Nydia Mcduffie",
+                "Florencio Defibaugh",
+                "Warner Giblin",
+                "Bob Mans",
+                "Shu Gray",
+                "Kaycee Gray",
+                "Victorina Froehlich victory@gmail.com",
+                "Roseanne Gray",
+                "Erica Radford hisam@gmail.com",
+                "Elyse Pauling",
+                "Erick Harrington harrington@gmail.com",
+                "Harrington Erick harrington@gmail.com");
+    }
+}
